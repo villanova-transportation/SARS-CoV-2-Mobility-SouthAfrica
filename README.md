@@ -19,7 +19,7 @@ A **Structural Equation Model (SEM)** was applied to dynamic panel datasets cove
 
 ## Repository Contents
 - **Data**: Aggregated mobility metrics and COVID-19 case data (subject to availability and privacy constraints).
-- **Code**: Scripts for data processing, SEM implementation, and visualization (e.g., R scripts using the `piecewiseSEM` package).
+- **Scripts**: Python/R codes for data processing, SEM implementation, and visualization (e.g., R scripts using the `piecewiseSEM` package).
 - **Results**:
   - **Data Description**: Provides aggregated mobility metrics (Type 1, Type 2, Type 3) and daily new COVID-19 cases at the provincial level for 2020, standardized per million people. Includes descriptive statistics (mean, standard deviation, min/max) for endogenous variables (mobility metrics, cases) and exogenous variables (e.g., Relative Wealth Index, lockdown levels), offering a foundation for understanding mobility and transmission patterns.
   - **SEM Dynamic Coefficients**: Contains time-varying coefficients from the SEM, quantifying the daily impact of each mobility metric on COVID-19 cases across pandemic stages. Includes coefficients for Type 1, Type 2, and Type 3 metrics with p-values and standard errors, enabling analysis of how mobility influences transmission over time.
